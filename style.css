@@ -4,9 +4,12 @@
   --accent: #f59e0b;
   --accent-light: #fffbeb;
   --accent-border: #fde68a;
+  --cta-orange: #f97316;
+  --cta-orange-dark: #c2410a;
   --success: #10b981;
   --success-light: #ecfdf5;
   --success-border: #6ee7b7;
+  --success-text: #059669;
   --bg-light: #f8fafc;
   --bg-blue: #eff6ff;
   --text: #334155;
@@ -65,8 +68,8 @@ h1, h2, h3, h4 {
 
 .price-tag {
   display: inline-block;
-  background: var(--accent);
-  color: var(--primary);
+  background: var(--success);
+  color: var(--white);
   font-weight: 700;
   padding: 6px 16px;
   border-radius: 999px;
@@ -74,9 +77,14 @@ h1, h2, h3, h4 {
   font-size: 0.95rem;
 }
 
+.price-highlight {
+  color: var(--success-text);
+  font-weight: 700;
+}
+
 .cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, var(--secondary), #1d4ed8);
+  background: linear-gradient(135deg, var(--cta-orange), var(--cta-orange-dark));
   color: var(--white);
   padding: 14px 28px;
   border-radius: 6px;
@@ -86,12 +94,12 @@ h1, h2, h3, h4 {
   cursor: pointer;
   font-size: 1rem;
   transition: transform 0.15s, box-shadow 0.15s;
-  box-shadow: 0 4px 10px -2px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 4px 10px -2px rgba(194, 65, 12, 0.4);
 }
 
 .cta-button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 14px -2px rgba(37, 99, 235, 0.5);
+  box-shadow: 0 6px 14px -2px rgba(194, 65, 12, 0.5);
 }
 
 /* Impact Section */
@@ -166,7 +174,7 @@ th, td {
 
 td:last-child {
   text-align: right;
-  color: #059669;
+  color: var(--success-text);
   font-weight: 700;
 }
 
