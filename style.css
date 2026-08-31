@@ -27,7 +27,7 @@ body {
 
 /* Sections & Typography */
 section, .hero {
-  padding: 60px 0;
+  padding: 36px 0;
 }
 
 h1, h2, h3, h4 {
@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
   background: var(--primary);
   color: var(--white);
   text-align: center;
-  padding: 80px 0;
+  padding: 56px 0;
 }
 
 .hero h1 {
