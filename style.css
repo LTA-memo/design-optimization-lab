@@ -108,9 +108,19 @@ h1, h2, h3, h4 {
   padding: 20px;
 }
 
+.table-card ul {
+  margin: 10px 0 0 20px;
+}
+
 .highlight-card {
   border-color: var(--secondary);
   box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.1);
+}
+
+.callout {
+  max-width: 700px;
+  margin: 20px auto 0 auto;
+  text-align: center;
 }
 
 table {
